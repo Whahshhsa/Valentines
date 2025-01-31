@@ -1,0 +1,50 @@
+body {
+    background-image: url("/valentines/media/bg.png");
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 50%;
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.word {
+    font-size: 12px;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000; 
+    padding: 1em;
+    background-color: rgba(255, 192, 203, 0.8); 
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+a:hover {
+    background-color: seagreen;
+
+}
+
+.gif {
+    top: calc(50% - 30px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
